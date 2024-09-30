@@ -1,4 +1,4 @@
-# Mass Mailing Queue with Redis and Email Automation
+# Mass Mailer with Redis and Email Automation
 
 This project is a Python-based mass mailing system that uses a Redis queue to manage the emails to be sent. The script pulls emails from an Excel file and enqueues them for mass mailing, handling email sending via SMTP. Environment variables are used to securely store sensitive information like email credentials.
 
@@ -18,8 +18,8 @@ Before running this project, ensure you have the following:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-repository-url/mass-mailing-queue.git
-cd mass-mailing-queue
+git clone https://github.com/sanjay14073/mass_mailer.git
+cd mass_mailer
 ```
 
 ### 2. Install Dependencies
@@ -56,7 +56,7 @@ python main.py
 
 ## Project Structure
 ```
-mass-mailing-queue/
+mass_mailer/
 │
 ├── .env                  # file containing the environment variables
 ├── main.py               # Main script that sends emails
